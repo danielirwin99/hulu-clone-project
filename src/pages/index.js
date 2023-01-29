@@ -1,3 +1,4 @@
+import Header from "components/Header";
 import Head from "next/head";
 
 export default function Home() {
@@ -6,14 +7,11 @@ export default function Home() {
       <Head>
         <title>Hulu 2.0</title>
       </Head>
-      <h1>HELLO</h1>
-
 
       {/* HEADER */}
-
+      <Header />
 
       {/* NAV */}
-
 
       {/* RESULTS */}
     </>
