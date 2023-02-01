@@ -1,7 +1,6 @@
 import React from "react";
 import Thumbnail from "./Thumbnail";
 import FlipMove from "react-flip-move";
-import { ChevronRightIcon, ChevronLeftIcon } from "@heroicons/react/24/outline";
 
 const Results = ({ results }) => {
   return (
